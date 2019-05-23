@@ -13,21 +13,23 @@ class List extends React.Component {
   render() {
     return (
       <table id='movie-list'>
-        <tr>
-          <td>{movies[0].title}</td>  
-        </tr>
-        <tr>
-          <td>{movies[1].title}</td>  
-        </tr>
-        <tr>
-          <td>{movies[2].title}</td>  
-        </tr>
-        <tr>
-          <td>{movies[3].title}</td>  
-        </tr>
-        <tr>
-          <td>{movies[4].title}</td>  
-        </tr>
+        <tbody>
+          <tr>
+            <td>{movies[0].title}</td>  
+          </tr>
+          <tr>
+            <td>{movies[1].title}</td>  
+          </tr>
+          <tr>
+            <td>{movies[2].title}</td>  
+          </tr>
+          <tr>
+            <td>{movies[3].title}</td>  
+          </tr>
+          <tr>
+            <td>{movies[4].title}</td>  
+          </tr>
+        </tbody>
       </table>
     )
   }

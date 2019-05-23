@@ -1,7 +1,7 @@
 .App-Header {
   font-style: italic;
   border: 2px solid lightgray;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   background: whitesmoke;
   padding: 10px;
 }
@@ -19,4 +19,22 @@ td {
   text-align: left;
   background-color: white;
   color: black;
+}
+
+#search-bar {
+  height: 30px;
+  width: 250px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  font-size: 14px;
+}
+
+#go-button {
+  box-sizing: content-box;
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }

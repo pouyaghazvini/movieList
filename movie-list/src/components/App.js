@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './List';
+import SearchBar from './SearchBar';
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,10 @@ class App extends React.Component {
        
        <div className='App-Header'>
          <h1>Movie List</h1>
+       </div>
+       
+       <div>
+         <SearchBar/>
        </div>
       
        <div>
