@@ -1,0 +1,22 @@
+.App-Header {
+  font-style: italic;
+  border: 2px solid lightgray;
+  margin-bottom: 200px;
+  background: whitesmoke;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 80px; 
+  margin-bottom: 50px;
+}
+  
+td {
+  width: 550px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
